@@ -28,7 +28,7 @@ export default function DashboardLayout({
           className="flex items-center justify-center lg:justify-start gap-2 p-4"
         >
           <Image src="/blogoo.png" alt="logo" width={32} height={32} />
-          <span className="hidden lg:block">Brooks School</span>
+          <span className="hidden lg:block font-bold">Brooks School</span>
         </Link>
         <Menu />
       </div>
